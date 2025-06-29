@@ -405,3 +405,6 @@ FodyWeavers.xsd
 .azure
 my-agent.agent.yaml
 
+# Allow JavaScript build-a-thon packages folder
+!packages/
+!packages/**
