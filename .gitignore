@@ -408,3 +408,7 @@ my-agent.agent.yaml
 # Allow JavaScript build-a-thon packages folder
 !packages/
 !packages/**
+
+genaiscript.d.ts
+tsconfig.json
+jsconfig.json
