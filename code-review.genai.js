@@ -1,6 +1,11 @@
-const changes = await git.diff({ staged: true });
 
-defDiff("CODE_CHANGES", changes);
+const githubToken = process.env.GITHUB_TOKEN;
+
+// Define 'changes' with an appropriate value before using it
+const changes = ""; // TODO: assign actual code changes here
+
+// Provide the missing arguments for defDiff
+defDiff("CODE_CHANGES", changes, undefined);
 
 $`## Role
 You are a senior developer whose job is to review code changes and provide meaningful feedback.
